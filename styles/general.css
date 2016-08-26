@@ -1,5 +1,51 @@
 @import "https://fonts.googleapis.com/css?family=Dancing+Script:700";
 @import "https://fonts.googleapis.com/css?family=Raleway:200,500,700";
+section#hero {
+  background-image: url(../assets/mariee_fold.jpg);
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0 5% 4% 5%;
+  color: #F2F2F2;
+  font-weight: 200; }
+  section#hero h2 {
+    color: #F2F2F2; }
+  section#hero p {
+    text-align: center;
+    width: 40%;
+    margin: -15px auto 10px; }
+  section#hero a.arrow {
+    color: rgba(242, 242, 242, 0.6);
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    transition: .5s; }
+    section#hero a.arrow::before {
+      content: url("../assets/arrow.png");
+      transform: scale(0.4);
+      position: absolute;
+      top: 2em;
+      left: 0;
+      right: 0; }
+    section#hero a.arrow:hover {
+      color: #f2f2f2; }
+
+section#body {
+  padding: 2em 0 7em; }
+  section#body div#contenedor div.card {
+    width: 32%;
+    display: inline-block;
+    margin: 3em .3em;
+    height: 200px; }
+    section#body div#contenedor div.card img {
+      width: 235px;
+      margin: auto; }
+  section#body div#contenedor p {
+    font-weight: 200;
+    margin: auto;
+    width: 70%; }
+
 .clearfix:after {
   visibility: hidden;
   display: block;
@@ -23,7 +69,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #F2F2F2;
+  background: url(../assets/mariee_body.jpg) fixed;
+  background-size: cover;
   font-family: "Raleway", sans-serif;
   font-size: 17px;
   text-align: center; }
@@ -43,8 +90,9 @@ h2 {
 
 h3 {
   font-family: "Raleway", sans-serif;
-  font-size: 33px;
-  font-weight: 400; }
+  font-size: 22px;
+  font-weight: 400;
+  color: #FFC528; }
 
 a {
   text-decoration: none;
@@ -68,6 +116,14 @@ a.boton.principal {
   font-size: .8em;
   font-weight: 700;
   margin: 3em auto; }
+
+a.boton.secundario {
+  background: #F2F2F2;
+  border: solid 1px #000000;
+  padding: 1em 2em;
+  border-radius: 25px;
+  margin: 3em auto;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2); }
 
 a.boton.terciario {
   background: rgba(0, 0, 0, 0.6);
@@ -94,19 +150,3 @@ a.boton.terciario {
       color: #F2F2F2; }
     #contenedor header a:nth-child(3) {
       border-right: none; }
-
-section#hero {
-  background-image: url(../assets/mariee_fold.jpg);
-  background-size: cover;
-  width: 100%;
-  height: auto;
-  text-align: center;
-  padding: 0 5% 3% 5%;
-  color: #F2F2F2;
-  font-weight: 200; }
-  section#hero h2 {
-    color: #F2F2F2; }
-  section#hero p {
-    text-align: center;
-    width: 40%;
-    margin: -15px auto 10px; }
