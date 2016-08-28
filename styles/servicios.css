@@ -210,3 +210,27 @@ section#hero {
     text-shadow: 0px 0px 20px #F2F2F2; }
   section#hero h2 {
     color: #F2F2F2; }
+
+div#servicio {
+  width: 700px;
+  margin: 4em auto;
+  height: 370px;
+  overflow: hidden; }
+  div#servicio .imagen_servicio {
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    height: 100%;
+    float: left; }
+    div#servicio .imagen_servicio img {
+      height: 100%;
+      float: right; }
+  div#servicio .info {
+    text-align: left;
+    width: 48%;
+    float: right; }
+    div#servicio .info p {
+      width: 100% !important; }
+  div#servicio h3:first-child {
+    color: #000000 !important; }

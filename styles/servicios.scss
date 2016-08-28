@@ -20,5 +20,35 @@ section#hero{
 	}
 }
 
+div#servicio{
+	width: 700px;
+	margin: 4em auto;
+	height: 370px;
+	overflow: hidden;
+	.imagen_servicio{
+		overflow: hidden;
+		border-radius: 10px;
+		overflow: hidden;
+		width: 50%;
+		height: 100%;
+		float: left;
+		img{
+			height: 100%;
+			float: right;
+		}
+	}
+	.info{
+		text-align: left;
+		width: 48%;
+		float: right;
+		p{
+			width: 100% !important;
+		}
+	}
+	h3:first-child{
+		color: $black !important;
+	}
+}
+
 
 
