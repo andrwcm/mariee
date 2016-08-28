@@ -1,14 +1,17 @@
 @import '_colors.scss';
+@import 'general.scss';
 
 section#hero{
 	background-image: url(../assets/mariee_fold.jpg);
-	background-size: cover;
+	background-position: top;
+	background-size: 130%;
 	width: 100%;
-	height: auto;
+	height: 700px;
 	text-align: center;
-	padding: 0 5% 4% 5%;
+	padding: 0 5% 5% 5%;
 	color: $base;
 	font-weight: 200;
+	position: relative;
 	h2{
 		color: $base;
 	}
@@ -16,6 +19,7 @@ section#hero{
 		text-align: center;
 		width: 40%;
 		margin: -15px auto 10px;
+		position: relative;
 	}
 	a.arrow{
 		color: rgba($base, .6);
@@ -38,7 +42,7 @@ section#hero{
 }
 
 section#body{
-	padding: 2em 0 7em;
+	padding: 2em 0 6em;
 	div#contenedor{
 		div.card{
 			width: 32%;
@@ -58,3 +62,86 @@ section#body{
 	}
 
 }
+
+section#testimonio{
+	width: 100%;
+	padding: 0 0 1.5em 0;
+	text-align: center;
+	background-image: $gradient;
+	.avatar{
+		width: 91px;
+		height: 91px;
+		margin: auto;
+		border: solid 3px $black;
+		border-radius: 50%;
+		overflow: hidden;
+		position: relative;
+		top: -40px;
+		img{
+			height: 100%;
+			width: auto;
+			margin: auto;
+			position: relative;
+			transition: .5s;
+			&:hover{
+				height: 110%;
+			}
+		}
+	}
+	.texto {
+			position: relative;
+			margin: auto;
+			line-height: 1.5em;
+			p.nombre{
+				font-size: 14px;
+				color: rgba(0,0,0,.4);
+			}
+			&:before{
+				content: " '' ";
+				display: block;
+				font-size: 3em;
+				position: relative;
+				color: rgba(0,0,0,.4);
+			}
+		}
+}
+
+section#solicitud{
+	width: 100%;
+	color: white;
+	padding: 1em 0;
+	background: black;
+	.small{
+		height: 90px;
+		width: 90px;
+	}
+	h3{
+		color: white;
+		margin: -40px auto 2px;
+	}
+	p{
+		width: 340px;
+		margin: auto;
+		font-weight: 200;
+	}
+}
+
+footer{
+	width: 100%;
+	padding: 1em 0 1em;
+	background: $gradient;
+	a.logo-small{
+		text-decoration: none;
+		img{
+			width: 40px;
+			margin: 1em auto;
+		}
+	}
+	a.terciario{
+		background: rgba($black, .9) !important; 
+		border: none !important;
+	}
+}
+
+
+

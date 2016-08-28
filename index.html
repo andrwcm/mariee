@@ -3,14 +3,16 @@
 <head>
 	<title>Mariee | Lujo y Estilo</title>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="styles/general.css">
+	<link rel="stylesheet" type="text/css" href="styles/home.css">
 	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/_animate.css">
+
 </head>
 <body>
 
-	<section id="hero">
+	<section id="hero" data-stellar-background-ratio="1.2" >
 		<div id="contenedor">
-			<header>
+			<header data-stellar-ratio="1.7">
 				<a href="#">Nosotros</a>
 				<a href="#">Nuestros Servicios</a>
 				<a href="#">Nuestros Aliados</a>
@@ -18,12 +20,11 @@
 			</header>
 
 			<h1>
-				Marieeaaaa
+				Mariee
 				<img src="assets/mariee.png" alt="Mariee">
 			</h1>
+			<h2 data-stellar-ratio="1.7">Belleza en la puerta de tu casa</h2>
 
-			<h2>Belleza en la puerta de tu casa</h2>
-		
 			<p>Para el mejor día de tu vida debes recibir lo mejor.
 			por eso nuestros servicios de belleza pueden llegar a tu casa a domicilio</p>
 			<a href="#" class="boton principal">
@@ -65,6 +66,96 @@
 			</div>
 		</div>
 	</section>
+
+
+	<div id="contenedor">
+		<h2>Galería</h2>
+		<p style="width: 700px; margin: auto; font-weight: 200;">
+			Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus.
+		</p>
+		<br>
+		<br>
+		<br>
+		<!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/3bb12b3d9e605a3e826bdbd7f906f39d.html" id="lightwidget_3bb12b3d9e" name="lightwidget_3bb12b3d9e"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 100%; border: 0; overflow: hidden;"></iframe>
+	</div>
+	
+
+	<section id="testimonio" data-stellar-background-ratio="1.2">
+		<div class="avatar">
+			<img src="assets/avatars/catalina.jpg">
+		</div>
+		<div class="texto">
+			<p>
+				<i>Quede espectacular gracias a tu trabajo, me encanta todo lo que hiciste.</i>
+				<br>
+				Está perfecto
+			</p>
+			<p class="nombre">
+				Catalina Ramirez
+			</p>
+		</div>
+	</section>
+
+	<section id="solicitud">
+		<h1 class="small">
+			Marieeaaaa
+			<img src="assets/mariee.png" alt="Mariee">
+		</h1>
+		<h3>
+			Solicita tu servicio en segundos
+		</h3>
+		<br>
+		<p>
+			Y recibe toda nuestra atención a domicilio,
+			en la comididad de tu casa
+		</p>
+		<br>
+		<a href="#" class="boton principal">
+			Solicitar Servicio
+		</a>
+	</section>
+
+	<footer>
+		<a href="#hero" class="logo-small">
+			<img src="assets/icon.png" alt="Mariee">
+		</a>
+		<header>
+			<a href="#">Nosotros</a>
+			<a href="#">Nuestros Servicios</a>
+			<a href="#">Nuestros Aliados</a>
+			<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
+		</header>
+	</footer>
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+
+	<script type="text/javascript">
+		$( ".secundario" ).hover(
+		  function() {
+		    $( this ).addClass( "animated pulse" );
+		  }, function() {
+		    $( this ).removeClass( "animated pulse" );
+		  }
+		);
+
+		$('body').addClass('animated fadeIn');
+
+		$.stellar({
+		  horizontalScrolling: false,
+		  verticalScrolling: true,
+
+		  verticalOffset: -5,
+
+		  responsive: false,
+
+		  parallaxBackgrounds: true,
+		  parallaxElements: true,
+
+		  hideDistantElements: false,
+		});
+	</script>
 	
 </body>
 </html>
