@@ -1,17 +1,20 @@
 @import '_colors.scss';
-@import 'general.scss';
+@import '_general.scss';
 
 section#hero{
 	background-image: url(../assets/mariee_fold.jpg);
 	background-position: top;
 	background-size: 130%;
 	width: 100%;
-	height: 700px;
+	height:auto;
 	text-align: center;
 	padding: 0 5% 5% 5%;
 	color: $base;
 	font-weight: 200;
 	position: relative;
+	header a:hover{
+		text-shadow: 0px 0px 20px $base;
+	}
 	h2{
 		color: $base;
 	}
@@ -40,108 +43,3 @@ section#hero{
 		}
 	}
 }
-
-section#body{
-	padding: 2em 0 6em;
-	div#contenedor{
-		div.card{
-			width: 32%;
-			display: inline-block;
-			margin: 3em .3em;
-			height: 200px;
-			img{
-				width: 235px;
-				margin: auto;
-			}
-		}
-		p{
-			font-weight: 200;
-			margin: auto;
-			width: 70%;
-		}
-	}
-
-}
-
-section#testimonio{
-	width: 100%;
-	padding: 0 0 1.5em 0;
-	text-align: center;
-	background-image: $gradient;
-	.avatar{
-		width: 91px;
-		height: 91px;
-		margin: auto;
-		border: solid 3px $black;
-		border-radius: 50%;
-		overflow: hidden;
-		position: relative;
-		top: -40px;
-		img{
-			height: 100%;
-			width: auto;
-			margin: auto;
-			position: relative;
-			transition: .5s;
-			&:hover{
-				height: 110%;
-			}
-		}
-	}
-	.texto {
-			position: relative;
-			margin: auto;
-			line-height: 1.5em;
-			p.nombre{
-				font-size: 14px;
-				color: rgba(0,0,0,.4);
-			}
-			&:before{
-				content: " '' ";
-				display: block;
-				font-size: 3em;
-				position: relative;
-				color: rgba(0,0,0,.4);
-			}
-		}
-}
-
-section#solicitud{
-	width: 100%;
-	color: white;
-	padding: 1em 0;
-	background: black;
-	.small{
-		height: 90px;
-		width: 90px;
-	}
-	h3{
-		color: white;
-		margin: -40px auto 2px;
-	}
-	p{
-		width: 340px;
-		margin: auto;
-		font-weight: 200;
-	}
-}
-
-footer{
-	width: 100%;
-	padding: 1em 0 1em;
-	background: $gradient;
-	a.logo-small{
-		text-decoration: none;
-		img{
-			width: 40px;
-			margin: 1em auto;
-		}
-	}
-	a.terciario{
-		background: rgba($black, .9) !important; 
-		border: none !important;
-	}
-}
-
-
-

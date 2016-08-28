@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mariee | Lujo y Estilo</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="styles/nosotros.css">
+	<link rel="stylesheet" type="text/css" href="styles/normalize.css">
+	<link rel="stylesheet" type="text/css" href="styles/animate.css">
+</head>
+<body>
+
+	<section id="hero" data-stellar-background-ratio="1.2" >
+		<div id="contenedor">
+			<header>
+				<a href="index.html"><span>Inicio</span></a>
+				<a href="servicios.html"><span>Nuestros Servicios</span></a>
+				<a href="#"><span>Nuestros Aliados</span></a>
+				<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
+			</header>
+
+			<h2 data-stellar-ratio="1.7">Nosotros</h2>
+		</div>
+	</section>
+
+	<section id="body" class="grid effect-2">
+		<div id="contenedor">
+			<img src="assets/nosotros_img.png" alt="" class="nosotros">
+			<p>
+				Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas faucibus mollis interdum. Maecenas faucibus mollis interdum. Cras mattis consectetur purus sit amet fermentum. Donec sed odio dui.
+				<br>
+				<br>	
+				Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla. Maecenas sed diam eget risus varius blandit sit amet non magna. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+			</p>
+			<br>
+			<br>
+			<a href="" class="boton principal">Nuestros servicios</a>
+		</div>
+
+	</section>
+
+
+	<section id="solicitud">
+		<h1 class="small">
+			Marieeaaaa
+			<img src="assets/mariee.png" alt="Mariee">
+		</h1>
+		<h3>
+			Solicita tu servicio en segundos
+		</h3>
+		<br>
+		<p>
+			Y recibe toda nuestra atención a domicilio,
+			en la comididad de tu casa
+		</p>
+		<br>
+		<a href="#" class="boton principal">
+			Solicitar Servicio
+		</a>
+	</section>
+
+	<footer>
+		<a href="#hero" class="logo-small">
+			<img src="assets/icon.png" alt="Mariee">
+		</a>
+		<header>
+			<a href="">Nosotros</a>
+			<a href="#">Nuestros Servicios</a>
+			<a href="#">Nuestros Aliados</a>
+			<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
+		</header>
+	</footer>
+
+	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/prefixfree.min.js"></script>
+	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
+	<script type="text/javascript">
+		$( ".secundario" ).hover(
+		  function() {
+		    $( this ).addClass( "animated pulse" );
+		  }, function() {
+		    $( this ).removeClass( "animated pulse" );
+		  }
+		);
+
+		$('body').addClass('animated fadeIn');
+		$.stellar({
+		  horizontalScrolling: false,
+		  verticalScrolling: true,
+
+		  verticalOffset: -5,
+
+		  responsive: false,
+
+		  parallaxBackgrounds: true,
+		  parallaxElements: true,
+
+		  hideDistantElements: false,
+		});
+	</script>
+	
+</body>
+</html>

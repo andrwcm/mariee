@@ -1,0 +1,212 @@
+@import "https://fonts.googleapis.com/css?family=Dancing+Script:700";
+@import "https://fonts.googleapis.com/css?family=Raleway:200,500,500i,700";
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-table; }
+
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: url(../assets/mariee_body.jpg) fixed;
+  background-size: cover;
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  text-align: center; }
+
+h1 {
+  font-size: 0px !important;
+  width: 148px;
+  height: 124px;
+  margin: 3rem auto 5rem !important;
+  position: relative; }
+  h1 img {
+    width: 100%; }
+
+h2 {
+  font-family: "Dancing Script";
+  font-size: 60px;
+  font-weight: 400;
+  position: inherit; }
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #EEAA3A; }
+
+a {
+  text-decoration: none;
+  color: #000000;
+  letter-spacing: 2.22px;
+  font-weight: 500;
+  font-size: .7em;
+  margin-right: 1.5em;
+  text-transform: uppercase;
+  transition: .5s; }
+  a:hover {
+    font-weight: 700; }
+
+a:last-child {
+  margin-right: 0; }
+
+a.boton {
+  display: inline-block; }
+
+a.boton.principal {
+  background: linear-gradient(-270deg, #FFC528 0%, #F9DF6F 44%, #EEAA3A 100%);
+  border-radius: 100px;
+  padding: 1.5em 5em;
+  font-size: .8em;
+  font-weight: 700;
+  margin: 3em auto;
+  transition: .5s; }
+  a.boton.principal:hover {
+    background: linear-gradient(-90deg, #FFC528 0%, #F9DF6F 44%, #EEAA3A 100%);
+    transform: scale(1.05);
+    box-shadow: 0px 0px 50px rgba(255, 197, 40, 0.6); }
+
+a.boton.secundario {
+  background: #F2F2F2;
+  border: solid 1px #000000;
+  padding: 1em 2em;
+  border-radius: 25px;
+  margin: 3em auto;
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.2); }
+
+a.boton.terciario {
+  background: rgba(0, 0, 0, 0.6);
+  color: #F2F2F2 !important;
+  border-radius: 3px;
+  border: solid 1px #F2F2F2;
+  padding: 10px 15px;
+  position: relative; }
+
+#contenedor {
+  width: 1200px;
+  min-width: 80%;
+  margin: auto !important; }
+  #contenedor header {
+    width: 100%;
+    background: transparent;
+    padding: 2em .5em; }
+    #contenedor header a.terciario {
+      float: right; }
+    #contenedor header a {
+      float: left;
+      border-right: solid 1px #F2F2F2;
+      padding-right: 1.5em;
+      color: #F2F2F2; }
+    #contenedor header a:nth-child(3) {
+      border-right: none; }
+
+section#body {
+  padding: 2em 0 9em; }
+  section#body div#contenedor div.card {
+    width: 32%;
+    display: inline-block;
+    margin: 3em .3em;
+    height: 200px; }
+    section#body div#contenedor div.card img {
+      width: 235px;
+      margin: auto; }
+  section#body div#contenedor p {
+    font-weight: 200;
+    margin: auto;
+    width: 70%; }
+
+section#testimonio {
+  width: 100%;
+  padding: 0 0 1.5em 0;
+  text-align: center;
+  background-image: linear-gradient(-270deg, #FFC528 0%, #F9DF6F 44%, #EEAA3A 100%); }
+  section#testimonio .avatar {
+    width: 91px;
+    height: 91px;
+    margin: auto;
+    border: solid 3px #000000;
+    border-radius: 50%;
+    overflow: hidden !important;
+    position: relative;
+    top: -40px; }
+    section#testimonio .avatar img {
+      height: 100%;
+      width: auto;
+      margin: auto;
+      position: relative;
+      transition: .5s; }
+      section#testimonio .avatar img:hover {
+        height: 110%; }
+  section#testimonio .texto {
+    position: relative;
+    margin: auto;
+    line-height: 1.5em; }
+    section#testimonio .texto p.nombre {
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.4); }
+    section#testimonio .texto:before {
+      content: " '' ";
+      display: block;
+      font-size: 3em;
+      position: relative;
+      color: rgba(0, 0, 0, 0.4); }
+
+section#solicitud {
+  width: 100%;
+  color: white;
+  padding: 1em 0;
+  background: black; }
+  section#solicitud .small {
+    height: 90px;
+    width: 90px; }
+  section#solicitud h3 {
+    color: white;
+    margin: -40px auto 2px; }
+  section#solicitud p {
+    width: 340px;
+    margin: auto;
+    font-weight: 200; }
+
+footer {
+  width: 100%;
+  padding: 1em 0 1em;
+  background: linear-gradient(-270deg, #FFC528 0%, #F9DF6F 44%, #EEAA3A 100%); }
+  footer a.logo-small {
+    text-decoration: none; }
+    footer a.logo-small img {
+      width: 40px;
+      margin: 1em auto; }
+  footer a.terciario {
+    background: rgba(0, 0, 0, 0.9) !important;
+    border: none !important; }
+
+section#hero {
+  background-image: url(../assets/mariee_nosotros_bg.jpg);
+  background-position: top;
+  background-size: 130%;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding: 0 5% 1% 5%;
+  color: #F2F2F2;
+  font-weight: 200;
+  position: relative; }
+  section#hero header a:hover {
+    text-shadow: 0px 0px 20px #F2F2F2; }
+  section#hero h2 {
+    color: #F2F2F2; }
