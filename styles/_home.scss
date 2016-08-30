@@ -4,7 +4,7 @@
 section#hero{
 	background-image: url(../assets/mariee_fold.jpg);
 	background-position: top;
-	background-size: 130%;
+	background-size: 150%;
 	width: 100%;
 	height:auto;
 	text-align: center;
@@ -23,13 +23,19 @@ section#hero{
 		width: 40%;
 		margin: -15px auto 10px;
 		position: relative;
-	}
+		@media screen and (max-width: 700px){
+			width: 90%;
+		}
+	}x
 	a.arrow{
 		color: rgba($base, .6);
 		font-weight: 200;
 		position: relative;
 		text-align: center;
 		transition: .5s;
+		@media screen and (max-width: 700px){
+				width: 80%;
+			}
 		&::before{
 			content: url("../assets/arrow.png");
 			transform: scale(.4);
@@ -42,4 +48,32 @@ section#hero{
 			color: rgba($base, 1);
 		}
 	}
+}
+
+section#body{
+	padding: 2em 0 7em;
+	div#contenedor{
+		div.card{
+			width: 32%;
+			display: inline-block;
+			margin: 3em .3em;
+			height: 200px;
+			@media screen and (max-width: $medium){
+				width: 40%;
+			}
+			@media screen and (max-width: 700px){
+				width: 80%;
+			}
+			img{
+				width: 235px;
+				margin: auto;
+			}
+		}
+		p{
+			font-weight: 200;
+			margin: auto;
+			width: 70%;
+		}
+	}
+
 }

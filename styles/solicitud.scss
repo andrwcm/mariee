@@ -2,7 +2,7 @@
 @import '_general.scss';
 
 section#hero{
-	background-image: url(../assets/mariee_servicios.jpg);
+	background-image: url(../assets/mariee_nosotros_bg.jpg);
 	background-position: middle;
 	background-size: 130%;
 	width: 100%;
@@ -41,6 +41,27 @@ div#servicio{
 		color: grey;
 		&:first-child{
 			color: $black;
+		}
+	}
+}
+
+section#testimonio{
+	background: $black;
+	.texto {
+		position: relative;
+		margin: auto;
+		line-height: 1.5em;
+		color: rgba($base,.8);
+		p.nombre{
+			font-size: 14px;
+			color: rgba(255,255,255,.4);
+		}
+		&:before{
+			content: " '' ";
+			display: block;
+			font-size: 3em;
+			position: relative;
+			color: rgba(255,255,255,.4);
 		}
 	}
 }
