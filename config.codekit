@@ -24,6 +24,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/bg_skew.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111964,
+		"inputAbbreviatedPath": "\/assets\/bg_skew.png",
+		"outputAbbreviatedPath": "\/assets\/bg_skew.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/bg_skew_2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111812,
+		"inputAbbreviatedPath": "\/assets\/bg_skew_2.png",
+		"outputAbbreviatedPath": "\/assets\/bg_skew_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/figure-1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -123,6 +145,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/Mariee_vertical.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39205,
+		"inputAbbreviatedPath": "\/assets\/Mariee_vertical.png",
+		"outputAbbreviatedPath": "\/assets\/Mariee_vertical.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/nosotros_img.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -130,6 +163,39 @@
 		"initialSize": 833958,
 		"inputAbbreviatedPath": "\/assets\/nosotros_img.png",
 		"outputAbbreviatedPath": "\/assets\/nosotros_img.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/ornamento_der.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149810,
+		"inputAbbreviatedPath": "\/assets\/ornamento_der.png",
+		"outputAbbreviatedPath": "\/assets\/ornamento_der.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/ornamento_iz.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149387,
+		"inputAbbreviatedPath": "\/assets\/ornamento_iz.png",
+		"outputAbbreviatedPath": "\/assets\/ornamento_iz.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/quote .png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 958,
+		"inputAbbreviatedPath": "\/assets\/quote .png",
+		"outputAbbreviatedPath": "\/assets\/quote .png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
