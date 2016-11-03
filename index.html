@@ -27,30 +27,22 @@
 		<meta property="og:image" content="" />
 		<meta property="og:description" content="" />
 
-		<link rel="stylesheet" type="text/css" href="styles/home.css">
+		<link rel="stylesheet" type="text/css" href="styles/_home.css">
 		<link rel="stylesheet" type="text/css" href="styles/normalize.css">
 		<link rel="stylesheet" type="text/css" href="styles/animate.css">
 </head>
 <body>
+	<section id="hero">
 
-	<section id="hero" data-stellar-background-ratio="1.2" >
-		<div id="contenedor">
-			<header data-stellar-ratio="1.7">
-				<a href="nosotros.html">Nosotros</a>
-				<a href="servicios.html">Nuestros Servicios</a>
-				<a href="#">Nuestros Aliados</a>
-				<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
-			</header>
-
+		<div id="contenedor_hero">
 			<h1>
 				Mariee
 				<img src="assets/mariee.png" alt="Mariee">
 			</h1>
-			<h2 data-stellar-ratio="1.7">Belleza en la puerta de tu casa</h2>
 
-			<p>Para el mejor día de tu vida debes recibir lo mejor.
-			por eso nuestros servicios de belleza pueden llegar a tu casa a domicilio</p>
-			<a href="solicitud.html" class="boton principal">
+			<p>Para el mejor día de tu vida debes recibir lo mejor
+			y en la puerta de tu casa.</p>
+			<a href="solicitud.html" class="boton secundario blanco">
 				Apartar Cita
 			</a>
 			
@@ -58,112 +50,127 @@
 
 			<a href="#" class="arrow">Conocer más</a>
 		</div>
+
+		<div id="ornamento">
+			<img src="assets/ornamento_fold.svg" alt="">
+		</div>
+
 	</section>
 
-	<section id="body" class="grid effect-2">
-		<h2>¿Cómo funciona?</h2>
+	<section id="body" class="clearfix"  >
 		<div id="contenedor">
-			<div class="card">
-				<img src="assets/figure-1.png" alt="Dinos lo que deseas">
-				<h3>Dinos lo que deseas</h3>
-				<p>
-					Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
-				</p>
-				<a href="servicios.html" class="boton secundario">Nuestros Servicios</a>
+
+			<div class="skew">
+				<div class="card">
+
+					<div class="left">
+						<img src="assets/figure-1.png" alt="Dinos lo que deseas">
+					</div>
+
+					<div class="right">
+						<h3>Dinos lo que deseas</h3>
+						<p>
+							Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
+						</p>
+						<a href="servicios.html" class="boton terciario">Nuestros Servicios</a>
+					</div>
+				
+				</div>
 			</div>
-			<div class="card">
-				<img src="assets/figure-2.png" alt="Agenda tu cita">
-				<h3>Agenda tu cita</h3>
-				<p>
-					Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
-				</p>
-				<a href="solicitud.html" class="boton secundario">Aparta tu cita</a>
+
+
+			<div class="skew">
+				<div class="card">
+
+					<div class="left">
+						<img src="assets/figure-2.png" alt="Dinos lo que deseas">
+					</div>
+
+					<div class="right">
+						<h3>Agenda tu cita</h3>
+						<p>
+							Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
+						</p>
+						<a href="servicios.html" class="boton terciario">Solicitar Servicio</a>
+					</div>
+				
+				</div>
 			</div>
-			<div class="card">
-				<img src="assets/figure-3.png" alt="Servicios en casa">
-				<h3>Recibe nuestros servicios en casa</h3>
-				<p>
-					Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
-				</p>
-				<a href="#" class="boton secundario">Nuestros Aliados</a>
+
+
+			<div class="skew">
+				<div class="card">
+
+					<div class="left">
+						<img src="assets/figure-3.png" alt="Dinos lo que deseas">
+					</div>
+
+					<div class="right">
+						<h3>Recibe nuestros servicios en casa</h3>
+						<p>
+							Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. 
+						</p>
+						<a href="servicios.html" class="boton terciario">Nuestros Aliados</a>
+					</div>
+				
+				</div>
 			</div>
+			
 		</div>
 	</section>
 
+	
+	<section id="footer">
 
-	<section id="testimonio" data-stellar-background-ratio="1.2">
-		<div class="avatar">
-			<img src="assets/avatars/catalina.jpg">
+		<div id="left">
+			<img src="assets/ornamento_iz.png" alt="">
 		</div>
-		<div class="texto">
+
+		<div id="right">
+			<img src="assets/ornamento_der.png" alt="">
+		</div>
+
+		<section id="testimonio">
+			<div class="avatar">
+				<img src="assets/avatars/catalina.jpg">
+			</div>
+			<div class="texto">
+				<p>
+					Quede espectacular gracias a tu trabajo, me encanta todo lo que hiciste.
+					<br>
+					Está perfecto
+				</p>
+				<p class="nombre">
+					Catalina Ramirez
+				</p>
+			</div>
+		</section>
+
+		<section id="solicitud">
+			<h1 class="small">
+				Mariee
+				<img src="assets/Mariee_vertical.png" alt="Mariee">
+			</h1>
+			<br>
+			<h3>
+				Solicita tu servicio en segundos
+			</h3>
+			<br>
 			<p>
-				<i>Quede espectacular gracias a tu trabajo, me encanta todo lo que hiciste.</i>
-				<br>
-				Está perfecto
+				Y recibe toda nuestra atención a domicilio,
+				en la comididad de tu casa
 			</p>
-			<p class="nombre">
-				Catalina Ramirez
-			</p>
-		</div>
+			<br>
+			<br>
+			<a href="solicitud.html" class="boton principal">
+				Solicitar Servicio
+			</a>
+		</section>
 	</section>
 
-	<section id="solicitud">
-		<h1 class="small">
-			Marieeaaaa
-			<img src="assets/mariee.png" alt="Mariee">
-		</h1>
-		<h3>
-			Solicita tu servicio en segundos
-		</h3>
-		<br>
-		<p>
-			Y recibe toda nuestra atención a domicilio,
-			en la comididad de tu casa
-		</p>
-		<br>
-		<a href="solicitud.html" class="boton principal">
-			Solicitar Servicio
-		</a>
-	</section>
 
-	<footer>
-		<a href="#hero" class="logo-small">
-			<img src="assets/icon.png" alt="Mariee">
-		</a>
-		<header>
-			<a href="#">Nosotros</a>
-			<a href="#">Nuestros Servicios</a>
-			<a href="#">Nuestros Aliados</a>
-			<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
-		</header>
-	</footer>
-
-	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/prefixfree.min.js"></script>
-	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-	<script type="text/javascript">
-		$( ".secundario" ).hover(
-		  function() {
-		    $( this ).addClass( "animated pulse" );
-		  }, function() {
-		    $( this ).removeClass( "animated pulse" );
-		  }
-		);
-		$('body').addClass('animated fadeIn');
-		$.stellar({
-		  horizontalScrolling: false,
-		  verticalScrolling: true,
-
-		  verticalOffset: -5,
-
-		  responsive: false,
-
-		  parallaxBackgrounds: true,
-		  parallaxElements: true,
-
-		  hideDistantElements: false,
-		});
-	</script>
 	
 </body>
 </html>
