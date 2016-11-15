@@ -1,6 +1,10 @@
 @import '_colors.scss';
 @import '_general.scss';
 
+section#body {
+    padding:0em;
+}
+
 section#hero{
 	background-image: url(../assets/mariee_nosotros_bg.jpg);
 	background-attachment: fixed;
@@ -8,7 +12,7 @@ section#hero{
 	background-size: 120% auto;
 	width: 100%;
 	overflow: hidden;
-	height:350px;
+	height:450px;
 	text-align: center;
 	color: $base;
 	font-weight: 200;
@@ -43,7 +47,18 @@ section#body img.nosotros{
 
 section#body{
 	div#contenedor p.nosotros_texto{
-		width: 50%;
-		margin: auto;
+		width: 800px;
+		display: block;
+		margin: -100px auto 0px;
+		padding: 5em 3em 12em 3em;
+		box-shadow: 0px 0px 12px rgba($black, .1);
+		position: relative;
+		z-index: 3333;
+		background: white;
+	}
+	div#contenedor .boton.principal{
+		top: -160px;
+		position: relative;
+		z-index: 44444;
 	}
 }

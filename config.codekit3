@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25428",
 "files": {
+	"\/aliados.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/aliados.html",
+		"oF": 0
+		},
 	"\/assets\/arrow.png": {
 		"ft": 32768,
 		"iS": 596,
@@ -22,6 +28,30 @@
 		"iS": 16452,
 		"oA": 0,
 		"oAP": "\/assets\/avatars\/catalina.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/avatars\/otro.png": {
+		"ft": 32768,
+		"iS": 74979,
+		"oA": 0,
+		"oAP": "\/assets\/avatars\/otro.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/avatars\/sayuri.png": {
+		"ft": 32768,
+		"iS": 64836,
+		"oA": 0,
+		"oAP": "\/assets\/avatars\/sayuri.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/avatars\/stella.png": {
+		"ft": 32768,
+		"iS": 32519,
+		"oA": 0,
+		"oAP": "\/assets\/avatars\/stella.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -113,35 +143,11 @@
 		"oF": 0,
 		"opt": 1
 		},
-	"\/assets\/mariee_nosotros_bg.png": {
-		"ft": 32768,
-		"iS": 462529,
-		"oA": 0,
-		"oAP": "\/assets\/mariee_nosotros_bg.png",
-		"oF": 0,
-		"opt": 1
-		},
-	"\/assets\/mariee_servicios.jpg": {
-		"ft": 16384,
-		"iS": 259009,
-		"oA": 0,
-		"oAP": "\/assets\/mariee_servicios.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/assets\/Mariee_vertical.png": {
 		"ft": 32768,
 		"iS": 39205,
 		"oA": 0,
 		"oAP": "\/assets\/Mariee_vertical.png",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/assets\/nosotros_img.png": {
-		"ft": 32768,
-		"iS": 833958,
-		"oA": 0,
-		"oAP": "\/assets\/nosotros_img.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -209,13 +215,23 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/css\/_home.css": {
+	"\/css\/aliados.css": {
 		"aP": 0,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_home-ck.css",
+		"oA": 2,
+		"oAP": "\/css\/aliados-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/css\/trabaje.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/trabaje-ck.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -407,6 +423,35 @@
 		"oS": 3,
 		"uL": 1
 		},
+	"\/styles\/aliados.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/aliados-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/styles\/aliados.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/styles\/aliados.css.map",
+		"oF": 0
+		},
+	"\/styles\/aliados.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/aliados.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/styles\/animate.css": {
 		"aP": 0,
 		"bl": 0,
@@ -467,6 +512,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/styles\/nosotros.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/styles\/nosotros.css.map",
+		"oF": 0
+		},
 	"\/styles\/nosotros.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -519,6 +570,12 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/styles\/solicitud.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/styles\/solicitud.css.map",
+		"oF": 0
+		},
 	"\/styles\/solicitud.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -531,6 +588,25 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/styles\/trabaje.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/trabaje.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/trabaje.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/trabaje.html",
+		"oF": 0
 		}
 	},
 "hooks": [

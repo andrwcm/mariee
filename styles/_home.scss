@@ -4,6 +4,7 @@
 section#hero{
 	background-image: url(../assets/mariee_fold.jpg);
 	background-size: cover;
+	background-position: center;
 	width: 100%;
 	margin: auto;
 	height:100%;
@@ -12,11 +13,18 @@ section#hero{
 	font-weight: 200;
 	position: relative;
 	z-index: 333;
+	@media screen and (max-width: 800px){
+		height: 600px;
+	}
 	#ornamento{
+		display: block;
 		float: left;
 		left: -30px;
 		position:relative;
 		z-index: 1;
+		@media screen and (max-width: 800px){
+			display: none;
+		}
 	}
 	#contenedor_hero{
 		width: 60%;
@@ -30,12 +38,29 @@ section#hero{
 		top: 0px;
 		bottom: 0px;
 		z-index: 999;
+		@media screen and (max-width: 800px){
+			h1{
+				width: 200px;
+				margin: auto;
+			}
+			.boton.secundario{
+				margin: auto;
+				width: 100%;
+				padding-left: 0px;
+				padding-right: 0px;
+				text-align: center;
+			}
+		}
 	}
 	header a:hover{
 		text-shadow: 0px 0px 20px $base;
 	}
 	h2{
+		font-size: 50px;
 		color: $base;
+		@media screen and (max-width: 800px){
+			font-size: 15px !important;
+		}
 	}
 	p{
 		text-align: left;
@@ -43,8 +68,11 @@ section#hero{
 		margin: 50px 0px;
 		position: relative;
 		font-size: 25px;
-		@media screen and (max-width: 700px){
+		@media screen and (max-width: 800px){
 			width: 90%;
+			text-align: center;
+			margin: 70px auto;
+			font-size: 20px;
 		}
 	}
 	a.arrow{
@@ -71,6 +99,7 @@ section#hero{
 }
 
 
+
 section#body{
 	padding: 2em 0 7em;
 	background: #FAFAFA;
@@ -78,10 +107,13 @@ section#body{
 	height: auto;
 	z-index: 6666;
 	#contenedor{
-		width: 100%;
+		width: 100% !important;
 		text-align: center;
 		height: 476px;
 		margin: auto;
+		@media screen and (max-width: 800px){
+			height: 1600px;
+		}
 		div.skew{
 			width: 100%;
 			margin: -60px auto;
@@ -89,33 +121,68 @@ section#body{
 			text-align: center;
 			background: url("../assets/bg_skew_2.png");
 			background-size: 100% 100%;
+			@media screen and (max-width: 800px){
+				background: none !important;
+			}
 			.card{
 				width: 750px;
-				height: auto;
+				height: 300px;
 				margin: auto;
 				position: relative;
 				top: 90px;
+				@media screen and (max-width: 800px){
+					width: 90%;
+					margin: 150px auto;
+				}
+				
 				.right, .left{
-					width: 50%;
+					width: 46%;
 					height: auto;
 					display: inline-block;
+					@media screen and (max-width: 800px){
+						width: 90%;
+					}
 				}
 
 				.left{
 					float: left;
+					@media screen and (max-width: 800px){
+						float: none;
+
+					}
 					img{
 						width: 80%;
 						float: left;
+						@media screen and (max-width: 800px){
+							width: 200px;
+							margin: auto;
+							float: none;
+						}
 					}
 				}
 
 				.right{
 					float: right;
 					padding-top: 1em;
+					@media screen and (max-width: 800px){
+						float: none;
+						h3{
+							text-align: center;
+							margin: 10px auto;
+						}
+						.boton.terciario{
+							margin: 20px auto;
+							width: 100%;
+						}
+					}
 					p{
 						font-size: 15px;
 						text-align: left;
 						margin: 30px auto;
+						@media screen and (max-width: 800px){
+							text-align: center;
+							margin: auto;
+						}
 					}
 				}
 			}

@@ -46,30 +46,33 @@ section#body img.nosotros{
 
 section#body #contenedor{
 	width: 90%;
+	padding-top: 80px;
 }
 
 
-section#body #contenedor div#servicio{
+section#body #contenedor div#aliados{
 	background: #FFFFFF;
 	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.1);
+	cursor: pointer;
 	border-radius: 4px;
-	width: 30%;
-	margin: 1em auto;
-	overflow: hidden;
-	height: auto;
+	width: 45%;
+	margin: 6em auto 3em;
+	height: 215px;
 	padding-bottom: 40px;
 	padding-top: 10px;
 	text-align: center;
 	display: inline-block;
+	&:first-child{
+		width: 60%;
+		margin: auto;
+		border: solid 1px #BE7D11;
+	}
+	&:hover{
+		box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.3);
+
+	}
 	@media screen and (max-width: $medium){
 		width: 90% !important;
-	}
-	a.boton.terciario{
-		width: 100%;
-		margin: auto;
-		float: left;
-		text-align: center;
-		position: relative;
 	}
 	.info{
 		text-align: center;
@@ -82,9 +85,18 @@ section#body #contenedor div#servicio{
 		}
 		h3{
 			text-align: center;
-			color: grey;
-			&:first-child{
-				color: $dark-yelow;
+			color: $dark-yelow;
+		}
+		.avatar{
+			width: 100px;
+			height: 100px;
+			overflow: hidden;
+			border-radius: 50%;
+			margin: -50px auto 0px;
+			position: relative;
+			img{
+				width: 100%;
+				height: auto;
 			}
 		}
 	}

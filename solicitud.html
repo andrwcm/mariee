@@ -32,83 +32,106 @@
 </head>
 <body>
 
-	<section id="hero" data-stellar-background-ratio="1.2" >
-		<div id="contenedor">
-			<header>
-				<a href="index.html"><span>Inicio</span></a>
-				<a href="nosotros.html"><span>Nosotros</span></a>
-				<a href="#"><span>Nuestros Aliados</span></a>
-				<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
-			</header>
+	<div id="btn_menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</div>
 
-			<h2 data-stellar-ratio="1.7">Solicitar Servicio</h2>
-		</div>
+	<section id="overlay">
+		<ul id="menu">
+			<a href="index.html">
+				<li><img src="assets/diamante.png" alt="Mariee"></li>
+			</a>
+			<br>
+			<li class="link"><a href="nosotros.html">Nosotros <span></span> </a></li>
+			<li class="link"><a href="servicios.html">Nuestros Servicios <span></span> </a></li>
+			<li class="link"><a href="aliados.html">Nuestros Aliados <span></span> </a></li>
+			<br>
+			<li class="botones"><a href="solicitud.html" class="boton principal">Solicitar Servicio</a></li>
+			<li class="botones"><a href="trabaje.html" class="boton secundario">Trabaje con Nosotros</a></li>
+		</ul>
+	</section>
+
+
+	<section id="hero">
+		<img src="assets/ornamento_interno.svg" alt="" class="ornamento">
+		<a href="index.html">
+			<img src="assets/Mariee_vertical.png" alt="" class="logo">
+		</a>
+		
+		<br>
+		<br>
+		<h2>Solicitar Servicio</h2>
+		<br>
 	</section>
 
 	<section id="body">
-<!-- Change the width and height values to suit you best -->
-<div class="typeform-widget" data-url="https://marieesalon.typeform.com/to/a7OcK2" data-text="Solicitud Mariee (copy)" style="width:100%;height:500px;"></div>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+		<div id="contenedor">
+			<!-- Change the width and height values to suit you best -->
+			<div class="typeform-widget" data-url="https://marieesalon.typeform.com/to/SgRORo" data-text="Solicitud Mariee" style="width:100%;height:600px;"></div>
+			<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
 
+			<a href="servicios.html" class="boton secundario">
+				Nuestros Servicio
+			</a>
 
 		</div>
 	</section>
 
-	<section id="testimonio" data-stellar-background-ratio="1.2">
-		<div class="avatar">
-			<img src="assets/avatars/catalina.jpg">
+	
+	<section id="footer">
+
+		<div id="left">
+			<img src="assets/ornamento_iz.png" alt="">
 		</div>
-		<div class="texto">
+
+		<div id="right">
+			<img src="assets/ornamento_der.png" alt="">
+		</div>
+
+		<section id="testimonio">
+			<div class="avatar">
+				<img src="assets/avatars/catalina.jpg">
+			</div>
+			<div class="texto">
+				<p>
+					Quede espectacular gracias a tu trabajo, me encanta todo lo que hiciste.
+					<br>
+					Está perfecto
+				</p>
+				<p class="nombre">
+					Catalina Ramirez
+				</p>
+			</div>
+		</section>
+
+		<section id="solicitud">
+			<h1 class="small">
+				Mariee
+				<img src="assets/Mariee_vertical.png" alt="Mariee">
+			</h1>
+			<br>
+			<h3>
+				Solicita tu servicio en segundos
+			</h3>
+			<br>
 			<p>
-				<i>Quede espectacular gracias a tu trabajo, me encanta todo lo que hiciste.</i>
-				<br>
-				Está perfecto
+				Y recibe toda nuestra atención a domicilio,
+				en la comididad de tu casa
 			</p>
-			<p class="nombre">
-				Catalina Ramirez
-			</p>
-		</div>
+			<br>
+			<br>
+			<a href="solicitud.html" class="boton principal">
+				Solicitar Servicio
+			</a>
+		</section>
 	</section>
-
-	<footer>
-		<a href="#hero" class="logo-small">
-			<img src="assets/icon.png" alt="Mariee">
-		</a>
-		<header>
-			<a href="">Nosotros</a>
-			<a href="#">Nuestros Servicios</a>
-			<a href="#">Nuestros Aliados</a>
-			<a href="#" class="boton terciario right">Trabaje con Nosotros</a>
-		</header>
-	</footer>
 
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/prefixfree.min.js"></script>
-	<script type="text/javascript" src="js/jquery.stellar.min.js"></script>
-	<script type="text/javascript">
-		$( ".secundario" ).hover(
-		  function() {
-		    $( this ).addClass( "animated pulse" );
-		  }, function() {
-		    $( this ).removeClass( "animated pulse" );
-		  }
-		);
-
-		$('body').addClass('animated fadeIn');
-		$.stellar({
-		  horizontalScrolling: false,
-		  verticalScrolling: true,
-
-		  verticalOffset: -5,
-
-		  responsive: false,
-
-		  parallaxBackgrounds: true,
-		  parallaxElements: true,
-
-		  hideDistantElements: false,
-		});
-	</script>
+	<script type="text/javascript" src="js/actions.js"></script>
+	
 	
 </body>
 </html>
