@@ -119,6 +119,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/mariee-cover.jpg": {
+		"ft": 16384,
+		"iS": 76504,
+		"oA": 0,
+		"oAP": "\/assets\/mariee-cover.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/mariee.png": {
 		"ft": 32768,
 		"iS": 30745,
@@ -132,6 +140,14 @@
 		"iS": 770740,
 		"oA": 0,
 		"oAP": "\/assets\/mariee_body.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/mariee_facebook_cover.jpg": {
+		"ft": 16384,
+		"iS": 30037,
+		"oA": 0,
+		"oAP": "\/assets\/mariee_facebook_cover.jpg",
 		"oF": 0,
 		"opt": 0
 		},
