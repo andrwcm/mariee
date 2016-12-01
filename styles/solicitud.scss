@@ -8,9 +8,8 @@ section#body {
 
 section#hero{
 	background-image: url(../assets/mariee_nosotros_bg.jpg);
-	background-attachment: fixed;
-	background-position: middle;
-	background-size: 120% auto;
+	background-position: middle center;
+	background-size: cover;
 	width: 100%;
 	overflow: hidden;
 	height:450px;
@@ -31,6 +30,10 @@ section#hero{
 		position: absolute;
 		left: 0px;
 		top: -190px;
+		@media screen and (max-width: 650px){
+			display: none;
+		}
+
 	}
 	h2{
 		color: $base;
@@ -40,12 +43,16 @@ section#hero{
 
 section#body #contenedor{
 	width: 1000px;
+	background: white;
 	height: 600px;
 	margin: -100px auto;
 	top: -100px;
 	position: relative;
 	z-index: 3333;
 	box-shadow: 0px 0px 12px rgba($black, .2);
+	@media screen and (max-width: 1000px){
+		width: 90%;
+	}
 }
 
 

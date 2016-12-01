@@ -372,9 +372,8 @@ section#body {
 
 section#hero {
   background-image: url(../assets/mariee_nosotros_bg.jpg);
-  background-attachment: fixed;
-  background-position: middle;
-  background-size: 120% auto;
+  background-position: center middle;
+  background-size: cover;
   width: 100%;
   overflow: hidden;
   height: 350px;
@@ -393,6 +392,9 @@ section#hero {
     position: absolute;
     left: 0px;
     top: -190px; }
+    @media screen and (max-width: 650px) {
+      section#hero .ornamento {
+        display: none; } }
   section#hero h2 {
     color: #F2F2F2; }
 
@@ -414,8 +416,8 @@ section#body #contenedor div#aliados {
   border-radius: 4px;
   width: 45%;
   margin: 6em auto 3em;
-  height: 215px;
-  padding-bottom: 40px;
+  height: auto;
+  padding-bottom: 5%;
   padding-top: 10px;
   text-align: center;
   display: inline-block; }
@@ -425,7 +427,7 @@ section#body #contenedor div#aliados {
     border: solid 1px #BE7D11; }
   section#body #contenedor div#aliados:hover {
     box-shadow: 0px 0px 80px 0px rgba(0, 0, 0, 0.3); }
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 700px) {
     section#body #contenedor div#aliados {
       width: 90% !important; } }
   section#body #contenedor div#aliados .info {

@@ -71,6 +71,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/card_social.jpg": {
+		"ft": 16384,
+		"iS": 87592,
+		"oA": 0,
+		"oAP": "\/assets\/card_social.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/diamante.png": {
 		"ft": 32768,
 		"iS": 22428,
@@ -422,6 +430,16 @@
 		"oF": 3,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/styles\/aliados-ck.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/styles\/aliados-ck-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/styles\/aliados.css": {
 		"aP": 0,

@@ -7,9 +7,8 @@ section#body {
 
 section#hero{
 	background-image: url(../assets/mariee_nosotros_bg.jpg);
-	background-attachment: fixed;
-	background-position: middle;
-	background-size: 120% auto;
+	background-position: center;
+	background-size: cover;
 	width: 100%;
 	overflow: hidden;
 	height:450px;
@@ -30,6 +29,9 @@ section#hero{
 		position: absolute;
 		left: 0px;
 		top: -190px;
+		@media screen and (max-width: 650px){
+			display: none;
+		}
 	}
 	h2{
 		color: $base;
@@ -45,6 +47,8 @@ section#body img.nosotros{
 }
 
 
+
+
 section#body{
 	div#contenedor p.nosotros_texto{
 		width: 800px;
@@ -55,10 +59,18 @@ section#body{
 		position: relative;
 		z-index: 3333;
 		background: white;
+		@media screen and (max-width: 790px){
+			width: 90%;
+
+		}
 	}
 	div#contenedor .boton.principal{
 		top: -160px;
 		position: relative;
 		z-index: 44444;
+		@media screen and (max-width: 450px){
+			width: 80%;
+
+		}
 	}
 }

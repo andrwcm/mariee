@@ -7,9 +7,8 @@ section#body {
 
 section#hero{
 	background-image: url(../assets/mariee_nosotros_bg.jpg);
-	background-attachment: fixed;
-	background-position: middle;
-	background-size: 120% auto;
+	background-size:cover;
+	background-position: center middle;
 	width: 100%;
 	overflow: hidden;
 	height:350px;
@@ -30,6 +29,9 @@ section#hero{
 		position: absolute;
 		left: 0px;
 		top: -190px;
+		@media screen and (max-width: 650px){
+			display: none;
+		}
 	}
 	h2{
 		color: $base;

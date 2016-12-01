@@ -7,9 +7,8 @@ section#body {
 
 section#hero{
 	background-image: url(../assets/mariee_nosotros_bg.jpg);
-	background-attachment: fixed;
-	background-position: middle;
-	background-size: 120% auto;
+	background-position: center middle;
+	background-size: cover;
 	width: 100%;
 	overflow: hidden;
 	height:350px;
@@ -30,6 +29,9 @@ section#hero{
 		position: absolute;
 		left: 0px;
 		top: -190px;
+		@media screen and (max-width: 650px){
+			display: none;
+		}
 	}
 	h2{
 		color: $base;
@@ -57,8 +59,8 @@ section#body #contenedor div#aliados{
 	border-radius: 4px;
 	width: 45%;
 	margin: 6em auto 3em;
-	height: 215px;
-	padding-bottom: 40px;
+	height: auto;
+	padding-bottom: 5%;
 	padding-top: 10px;
 	text-align: center;
 	display: inline-block;
@@ -71,7 +73,7 @@ section#body #contenedor div#aliados{
 		box-shadow: 0px 0px 80px 0px rgba(0,0,0,0.3);
 
 	}
-	@media screen and (max-width: $medium){
+	@media screen and (max-width: 700px){
 		width: 90% !important;
 	}
 	.info{
