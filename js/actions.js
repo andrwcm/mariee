@@ -4,3 +4,10 @@ $(document).ready(function(){
     $( "section#overlay").fadeToggle( "fast", "linear" );
   });   
 });
+
+//acciones precarga
+$(window).load(function() {
+      $("#status").fadeOut();
+      $("#preloader").delay(350).fadeOut("slow", function(){
+   });
+})
